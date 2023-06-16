@@ -1,0 +1,230 @@
+.Login {
+  height: 100vh;
+  background-image: url(https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  position: fixed;
+}
+.Home {
+  height: 100vh;
+  background-image: url(https://cdn.pixabay.com/photo/2018/05/22/14/00/girl-3421489_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  position: fixed;
+}
+.singup {
+  height: 100vh;
+  background-image: url(https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  position: fixed;
+}
+.about {
+  height: 100vh;
+  background-image: url(https://cdn.pixabay.com/photo/2014/08/15/06/16/imprint-418596_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  position: fixed;
+}
+.contact {
+   height: 100vh;
+   background-image: url(https://cdn.pixabay.com/photo/2016/01/15/16/28/icon-set-1142000_1280.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   border: 1px solid black;
+   margin-bottom: 100px;
+   display: flex;
+   flex-direction: column;
+   width: 100vw;
+   position: fixed;
+}
+
+.form {
+  background-color: rgb(255, 255, 255, 0.39);
+  box-shadow: 0px 8px 32px 0 rgb(0, 0, 255, 0.33);
+  backdrop-filter: blur(3px);
+  width: 30%;
+  padding: 50px;
+  border-radius: 10px;
+  margin: auto;
+}
+.form1 {
+  background-color: rgb(255, 255, 255, 0.39);
+  box-shadow: 0px 8px 32px 0 rgb(0, 0, 255, 0.33);
+  backdrop-filter: blur(3px);
+  width: 30%;
+  padding: 50px;
+  border-radius: 10px;
+  margin: auto;
+  display: inline-block;
+  margin-left: 50px;
+
+}
+.btn {
+  margin-top: 20px;
+  background-color: rgb(20, 69, 185);
+  font-size: 16px;
+  font-weight: 700;
+}
+.lable {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.input {
+  background-color: whitesmoke;
+}
+.link {
+  font-size: 14px;
+  font-weight: 700;
+  color: brown;
+  margin-top: 20px;
+}
+.socialLogin {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+}
+.socialicon {
+  cursor: pointer;
+}
+.title {
+  justify-content: center;
+  display: flex;
+}
+.user {
+  justify-content: center;
+  display: flex;
+  font-size: 70px;
+  color: black;
+  border-radius: 1px solid black;
+  border-radius: 50%;
+}
+.table{
+ 
+    padding: 8px;
+    width: 50%;
+    height: auto;
+  float:right;
+   clear:left;
+   
+}
+.table tr:nth-child(even){
+  background-color: #f5f2f2;
+}
+
+.table tr:hover {
+  background-color: #beabab;
+}
+
+
+.d{
+  display: block;
+  margin-top: 150px;
+  margin-right: 400px;
+  
+}
+#nav{
+  width:100vw;
+  display: flex;
+  align-content: space-between;
+  align-content: center;
+  position: relative;
+  opacity:0.7;
+  gap: 12;
+  font-size: 16px;
+  font-weight: 600;
+  height: 50px;
+  padding: 30px;
+}
+
+
+#idd:hover {
+  background-color: gray;
+  border-radius: 15px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+  
+  
+  
