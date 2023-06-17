@@ -18,7 +18,7 @@ function AboutUs() {
          </li>
          <li className="nav-item">
            {/* Endpoint to route to About component */}
-           <Link  to={'/Login'}className="navbar-brand" id='idd'>Login</Link>
+           <Link  to={'/'}className="navbar-brand" id='idd'>Login</Link>
          </li>
          <li className="nav-item">
            {/* Endpoint to route to Contact Us component */}

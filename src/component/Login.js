@@ -33,10 +33,10 @@ const handleLogin=(e)=>{
           
          }
          else{
-          setTimeout(()=>{
-            message.error('You Enter invalid',onclose)
+          
+            message.error('You Enter invalid')
 
-          },200)
+          
 
           
 
@@ -78,7 +78,7 @@ const handleLogin=(e)=>{
      <Form className='form' onSubmit={handleLogin}>
      <UserOutlined className='user' />;
      <Typography.Title className='title'>Login</Typography.Title>
-      <Form.Item label='Email' className='lable' ></Form.Item>
+      <Form.Item label='Email' className='lable'  ></Form.Item>
         <Input  type='Email' placeholder='Enter Your Email' prefix={<MailOutlined style={{ fontSize: '16px', color: '#08c' }}/>} className='input' allowClear  value={email} onChange={(e)=>setEmail(e.target.value)}/>
       
       <Form.Item label='Password' className='lable'  ></Form.Item>
